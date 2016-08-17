@@ -30,5 +30,5 @@ then
    /usr/local/etc/rc.d/apache24 reload 
    /usr/local/etc/rc.d/nginx reload
 fi 
-echo $rc
+exit $rc
 
