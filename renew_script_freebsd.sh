@@ -27,7 +27,7 @@ done
 if [ $rc -ne 0 ]; 
 then
    echo "Certificates renewed. Restarting nginx and apache24" 
-   /usr/local/etc/rc.d/apache24 restart
+   /usr/local/etc/rc.d/apache24 reload 
    /usr/local/etc/rc.d/nginx reload
 fi 
 echo $rc
