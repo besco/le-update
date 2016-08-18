@@ -1,0 +1,5 @@
+/var/log/renew_scrip.log {
+    missingok
+    notifempty
+    compress
+}
