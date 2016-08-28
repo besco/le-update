@@ -1,5 +1,10 @@
 # le-update
 
-renew_script_freebsd.sh  -  FreeBSD version
-renew_script_linux.sh	 -  Linux version
-renew_log_rotate	 -  Logrotate
+# FreeBSD version
+renew_script_freebsd.sh
+
+# Linux version
+renew_script_linux.sh
+
+# Logrotae
+renew_log_rotate
