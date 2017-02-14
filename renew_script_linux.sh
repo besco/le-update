@@ -28,8 +28,8 @@ done
 if [ $rc -ne 0 ]; 
 then
    echo "Certificates renewed. Restarting nginx and apache24" 
-   /etc/init.d/httpd reload 
-   /etc/init.d/nginx reload
+   service httpd reload 
+   service nginx reload
 fi 
 exit $rc
 
